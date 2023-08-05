@@ -36,7 +36,7 @@ const AvailableMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch(
-        "https://starwars-api-app-default-rtdb.firebaseio.com/meals.json"
+        "https://swapi-api-ff47f-default-rtdb.firebaseio.com/meals.json"
       );
       if (!response.ok) {
         throw new Error("Something went wrong!");
